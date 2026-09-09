@@ -1,0 +1,69 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Cores de marca — mesmos tokens do delivroo-express-store-web (src/index.css) */
+  --color-orange: #FF6B35;
+  --color-orange-dark: #E0551F;
+  --color-cream: #FAF7F1;
+
+  --color-ink: #26211C;
+  --color-ink-soft: #6B655D;
+  --color-line: #E8E2D6;
+
+  --color-green: #2E9E5B;
+  --color-green-bg: #E7F5EC;
+  --color-red: #E24B4A;
+  --color-red-bg: #FCEBEB;
+  --color-amber: #BA7517;
+  --color-amber-bg: #FAEEDA;
+
+  /* Tipografia */
+  --font-heading: 'Baloo 2', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  /* Raios — mesma escala do store-web/app */
+  --radius-sm: 10px;
+  --radius-md: 12px;
+  --radius-lg: 14px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-ink font-sans antialiased;
+}
+
+h1, h2, h3, h4 {
+  @apply font-heading text-ink;
+}
+
+::selection {
+  background: var(--color-orange);
+  color: white;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+.animate-floaty {
+  animation: floaty 6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
