@@ -24,14 +24,14 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-8">
-            <a
-              href="#lojistas"
+            
+            <a  href="#lojistas"
               className="bg-orange text-white font-bold px-7 py-4 rounded-full hover:bg-orange-dark transition-colors shadow-lg shadow-orange/30"
             >
               Quero cadastrar minha loja
             </a>
-            <a
-              href="#entregadores"
+            
+            <a  href="#entregadores"
               className="font-bold text-ink px-7 py-4 rounded-full border-2 border-ink/10 hover:border-ink/30 transition-colors"
             >
               Quero entregar
@@ -49,14 +49,14 @@ export default function Hero() {
               <span className="w-1.5 h-1.5 rounded-full bg-green" /> Entregadores da sua cidade
             </span>
           </div>
-        </div>
+        
 
         <div className="relative flex justify-center lg:justify-end">
           <div className="absolute -inset-8 -z-10 bg-orange/10 rounded-full blur-3xl" />
           <PhoneFrame
             src={riderHome}
             alt="Tela inicial do app do entregador Delivroo, mostrando faturamento do dia e entregas disponíveis"
-            className="animate-floaty"
+            className="w-60 max-w-full animate-floaty"
           />
         </div>
       </div>

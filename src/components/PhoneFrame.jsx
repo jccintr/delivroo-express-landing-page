@@ -3,12 +3,17 @@
 // desenha a UI em JSX dentro do frame, aqui usamos screenshots de verdade
 // (mais convincente: é o app de verdade, não uma recriação).
 //
-// A largura é controlada por quem usa o componente (via className, ex:
-// "w-[220px]") — o wrapper interno usa w-full pra respeitar isso, em vez
-// de ter uma largura fixa aqui dentro.
+// IMPORTANTE: este componente NÃO define uma largura padrão própria —
+// quem usa precisa sempre passar uma classe de largura via `className`
+// (ex: "w-48 sm:w-[190px]"). Isso é proposital: uma largura padrão aqui
+// dentro entraria em conflito de cascata CSS com a largura passada pelo
+// chamador (duas classes w-[...] sem prefixo de breakpoint têm a mesma
+// especificidade, e quem vence é decidido pela ordem de geração do
+// Tailwind no CSS final — não pela ordem em que aparecem no JSX). Foi
+// esse conflito que causava o estouro em telas pequenas.
 export default function PhoneFrame({ src, alt, className = '' }) {
   return (
-    <div className={`relative w-[240px] ${className}`}>
+    <div className={`relative ${className}`}>
       <div className="rounded-[2.4rem] bg-ink p-2.5 shadow-2xl shadow-ink/30">
         <div className="relative rounded-[1.9rem] overflow-hidden bg-white w-full">
           {/* Notch */}

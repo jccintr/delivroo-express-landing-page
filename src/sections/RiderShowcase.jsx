@@ -51,16 +51,20 @@ export default function RiderShowcase() {
 
           <div className="relative flex justify-center">
             <div className="absolute -inset-8 -z-10 bg-green/10 rounded-full blur-3xl" />
-            <div className="flex items-end gap-5">
+            {/* Empilhado (uma tela por linha) até `sm`, lado a lado a partir
+                daí — o defasamento vertical (-mb-4/mt-6) e a rotação só
+                fazem sentido no layout em linha, por isso também ficam
+                condicionados a `sm:`. */}
+            <div className="flex flex-col sm:flex-row items-center sm:items-end gap-6 sm:gap-4">
               <PhoneFrame
                 src={riderHome}
                 alt="Tela inicial do app do entregador, com faturado hoje, entregas hoje e lista de novas entregas disponíveis"
-                className="w-[190px] sm:w-[220px] -mb-4 rotate-[-4deg]"
+                className="w-48 sm:w-[170px] lg:w-[210px] sm:-mb-4 sm:rotate-[-4deg]"
               />
               <PhoneFrame
                 src={riderDetails}
                 alt="Tela de detalhes da entrega no app do entregador, com valor a receber, distância, mapa e botão para aceitar a entrega"
-                className="w-[190px] sm:w-[220px] mt-6 rotate-[4deg]"
+                className="w-48 sm:w-[170px] lg:w-[210px] sm:mt-6 sm:rotate-[4deg]"
               />
             </div>
           </div>
