@@ -3,6 +3,7 @@ import Hero from './sections/Hero';
 import HowItWorks from './sections/HowItWorks';
 import StoreBenefits from './sections/StoreBenefits';
 import StoreFeatures from './sections/StoreFeatures';
+import StoreShowcase from './sections/StoreShowcase';
 import RiderShowcase from './sections/RiderShowcase';
 import FinalCTA from './sections/FinalCTA';
 import Footer from './sections/Footer';
@@ -16,6 +17,7 @@ export default function App() {
         <HowItWorks />
         <StoreBenefits />
         <StoreFeatures />
+        <StoreShowcase />
         <RiderShowcase />
         <FinalCTA />
       </main>
