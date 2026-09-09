@@ -38,8 +38,10 @@ body {
   @apply bg-cream text-ink font-sans antialiased;
 }
 
-h1, h2, h3, h4 {
-  @apply font-heading text-ink;
+@layer base {
+  h1, h2, h3, h4 {
+    @apply font-heading text-ink;
+  }
 }
 
 ::selection {
