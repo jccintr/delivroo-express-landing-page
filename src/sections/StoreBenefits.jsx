@@ -14,7 +14,7 @@ const delivrooPoints = [
   'Sem entregador ocioso: ele só existe pra você quando tem pedido',
   'Vários entregadores da cidade disponíveis ao mesmo tempo, para lhe atender quando você mais precisa.',
   'Cada entregador usa o próprio veículo, sem custo extra para sua loja.',
-  'Há sempre um entregador disponível, seu delivery não pode parar',
+  'Há sempre um entregador disponível, seu delivery não pode parar.',
 ];
 
 export default function StoreBenefits() {
@@ -66,6 +66,7 @@ export default function StoreBenefits() {
         <div className="text-center mt-12">
           <a
             href={STORE_SIGNUP_URL}
+            target="_blank"
             className="inline-block bg-orange text-white font-bold px-8 py-4 rounded-full hover:bg-orange-dark transition-colors shadow-lg shadow-orange/25"
           >
             Cadastrar minha loja

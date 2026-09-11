@@ -19,6 +19,7 @@ export default function FinalCTA() {
           <div className="relative flex flex-wrap items-center justify-center gap-4 mt-9">
             <a
               href={STORE_SIGNUP_URL}
+              target="_blank"
               className="bg-orange text-white font-bold px-7 py-4 rounded-full hover:bg-orange-dark transition-colors shadow-lg shadow-orange/30"
             >
               Cadastrar minha loja

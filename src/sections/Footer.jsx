@@ -42,7 +42,7 @@ export default function Footer() {
               <p className="font-heading font-bold text-ink mb-3">Comece agora</p>
               <ul className="flex flex-col gap-2 text-ink-soft">
                 <li>
-                  <a href={STORE_SIGNUP_URL} className="hover:text-orange transition-colors">
+                  <a href={STORE_SIGNUP_URL} target="_blank" className="hover:text-orange transition-colors">
                     Cadastrar minha loja
                   </a>
                 </li>

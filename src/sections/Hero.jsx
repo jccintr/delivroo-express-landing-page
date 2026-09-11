@@ -1,5 +1,6 @@
 import PhoneFrame from '../components/PhoneFrame';
 import riderHome from '../assets/rider-home.jpg';
+import { STORE_SIGNUP_URL } from '../config';
 
 export default function Hero() {
   return (
@@ -13,7 +14,7 @@ export default function Hero() {
           </span>
 
           <h1 className="font-heading font-extrabold text-[2.4rem] leading-[1.08] sm:text-5xl sm:leading-[1.08] text-ink mt-5 text-balance">
-            Do pedido a entrega<br />
+           Suas entregas<br />
             <span className="text-orange">Sem complicações</span>
           </h1>
 
@@ -24,7 +25,8 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-8">
-            <a href="#lojistas"
+            <a  href={STORE_SIGNUP_URL}
+              target="_blank"
               className="bg-orange text-white font-bold px-7 py-4 rounded-full hover:bg-orange-dark transition-colors shadow-lg shadow-orange/30"
             >
               Quero cadastrar minha loja

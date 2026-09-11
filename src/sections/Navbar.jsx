@@ -50,6 +50,7 @@ export default function Navbar() {
           </a>
           <a
             href={STORE_SIGNUP_URL}
+            target="_blank"
             className="bg-orange text-white text-sm font-bold px-5 py-2.5 rounded-full hover:bg-orange-dark transition-colors shadow-lg shadow-orange/25"
           >
             Cadastrar minha loja

@@ -6,5 +6,5 @@
 //
 // RIDER_APP_URL: onde o entregador baixa/acessa o app (link da loja de
 // apps quando publicado, ou uma landing de espera/APK enquanto isso).
-export const STORE_SIGNUP_URL = '#contato';
+export const STORE_SIGNUP_URL = 'https://delivroo-store.vercel.app';
 export const RIDER_APP_URL = '#contato';
