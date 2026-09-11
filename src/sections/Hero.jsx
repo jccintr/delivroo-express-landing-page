@@ -9,18 +9,18 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-16 items-center">
         <div>
           <span className="inline-flex items-center gap-2 bg-white border border-ink/10 rounded-full px-3.5 py-1.5 text-xs font-bold text-orange-dark shadow-sm">
-            🛵 Entrega sob demanda, sem entregador fixo
+            🛵 Entregas sob demanda, sem entregador fixo
           </span>
 
           <h1 className="font-heading font-extrabold text-[2.4rem] leading-[1.08] sm:text-5xl sm:leading-[1.08] text-ink mt-5 text-balance">
-            Sua loja entrega mais.<br />
-            Seu entregador ganha <span className="text-orange">mais</span>.
+            Do pedido a entrega<br />
+            <span className="text-orange">Sem complicações</span>
           </h1>
 
           <p className="text-lg text-ink-soft mt-6 max-w-lg leading-relaxed">
-            O Delivroo Express conecta sua loja a entregadores independentes da sua cidade, em
-            tempo real. Sem folha de pagamento fixa, sem entregador parado esperando pedido — você
-            paga só pela entrega que sai da porta.
+            O Delivroo Express conecta sua loja a entregadores da sua cidade em
+            tempo real. Sem folha de pagamento fixa, sem diária e sem entregador parado esperando pedido. Você
+            paga ao entregador apenas o valor das entregas concluídas.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-8">
@@ -38,13 +38,11 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-x-8 gap-y-3 mt-10 text-sm text-ink-soft">
             <span className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-green" /> Painel em tempo real
+              <span className="w-1.5 h-1.5 rounded-full bg-green" /> Acompanhe em tempo real
             </span>
+           
             <span className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-green" /> Sem mensalidade de frota
-            </span>
-            <span className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-green" /> Entregadores da sua cidade
+              <span className="w-1.5 h-1.5 rounded-full bg-green" /> Somente entregadores locais
             </span>
           </div>
         </div>

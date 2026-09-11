@@ -15,13 +15,13 @@ const storeSteps = [
   },
   {
     icon: MdOutlineAddBox,
-    title: 'Solicite a entrega',
+    title: 'Solicite entregas',
     text: 'Informe o endereço do cliente e os dados do pacote. A entrega já entra no radar dos entregadores da região.',
   },
   {
     icon: MdOutlineNotificationsActive,
     title: 'Acompanhe em tempo real',
-    text: 'Veja no painel quando um entregador aceita, retira e entrega — com notificação a cada etapa, sem precisar atualizar a página.',
+    text: 'Veja no painel quando um entregador aceitar, retirar e concluir a entrega.',
   },
 ];
 
@@ -34,12 +34,12 @@ const riderSteps = [
   {
     icon: MdOutlineDirectionsBike,
     title: 'Aceite as entregas que quiser',
-    text: 'Veja as entregas disponíveis de várias lojas da sua cidade ao mesmo tempo e escolha as que fazem sentido pra sua rota.',
+    text: 'Veja as entregas disponíveis de várias lojas da sua cidade ao mesmo tempo e escolha as que fazem sentido para você.',
   },
   {
     icon: MdOutlinePayments,
     title: 'Acompanhe seus ganhos',
-    text: 'Faturamento de hoje, da semana e do mês, direto na tela inicial do app — sem precisar anotar em lugar nenhum.',
+    text: 'Faturamento do dia, da semana e do mês, na palma da sua mão.',
   },
 ];
 
@@ -73,8 +73,7 @@ export default function HowItWorks() {
             Como funciona
           </h2>
           <p className="text-ink-soft mt-4 text-lg">
-            Dos dois lados da entrega — pra quem pede e pra quem entrega — o Delivroo Express é
-            simples de começar a usar hoje mesmo.
+            Seja você lojista ou entregador, o Delivroo Express é a ferramenta perfeita para vocês.
           </p>
         </div>
 

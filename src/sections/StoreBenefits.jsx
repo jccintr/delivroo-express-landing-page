@@ -2,19 +2,19 @@ import { MdCheckCircle, MdCancel } from 'react-icons/md';
 import { STORE_SIGNUP_URL } from '../config';
 
 const fixedRiderPoints = [
-  'Salário fixo todo mês — mesmo nos dias fracos',
-  'Motoboy parado esperando o próximo pedido é tempo pago do mesmo jeito',
-  'Um pico de pedidos, um entregador só: ou vira fila, ou o cliente espera',
-  'Você banca combustível, manutenção e seguro do veículo',
-  'Ele faltou, tirou férias ou saiu da empresa? A entrega para com ele',
+  'Diária ou salário fixo todo mês, mesmo nos dias fracos.',
+  'Entregador parado esperando pedidos dá prejuízo, você tem que pagar do mesmo jeito.',
+  'Muitos pedidos simultâneos, um entregador só não dá conta, maior tempo de espera para o cliente.',
+  'Você banca combustível, manutenção e seguro do veículo.',
+  'Entregador doente ou de férias ? Seu delivery para.',
 ];
 
 const delivrooPoints = [
-  'Você paga por entrega feita, não por hora parada',
+  'Você paga somente por entrega feita.',
   'Sem entregador ocioso: ele só existe pra você quando tem pedido',
-  'Vários entregadores da cidade disponíveis ao mesmo tempo, inclusive no pico',
-  'Cada entregador usa o próprio veículo — sem custo de frota pra sua loja',
-  'Sempre tem alguém online na cidade — a operação não depende de uma pessoa só',
+  'Vários entregadores da cidade disponíveis ao mesmo tempo, para lhe atender quando você mais precisa.',
+  'Cada entregador usa o próprio veículo, sem custo extra para sua loja.',
+  'Há sempre um entregador disponível, seu delivery não pode parar',
 ];
 
 export default function StoreBenefits() {
@@ -26,11 +26,11 @@ export default function StoreBenefits() {
             PARA LOJISTAS
           </span>
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-ink mt-4 text-balance">
-            Compare com manter um entregador fixo
+            Compare: Entregador fixo vs <span className="text-orange">Delivroo Express</span>
           </h2>
           <p className="text-ink-soft mt-4 text-lg leading-relaxed">
-            Manter um motoboy contratado custa caro em dias parados e não resolve nos dias
-            cheios. O Delivroo Express escala junto com o seu movimento.
+            Manter um entregador contratado custa caro em dias de pouca demanda e não resolve nos dias
+            de maior movimento. O Delivroo Express escala junto com a sua necessidade.
           </p>
         </div>
 
