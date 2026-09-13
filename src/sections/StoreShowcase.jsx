@@ -12,11 +12,10 @@ export default function StoreShowcase() {
             PARA LOJISTAS
           </span>
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-ink mt-4 text-balance">
-            Toda a operação de entrega, numa tela só
+            Painel web completo para sua loja
           </h2>
           <p className="text-ink-soft mt-4 text-lg leading-relaxed">
-            Peça a entrega em menos de um minuto, acompanhe cada uma em tempo real e veja como
-            está o desempenho da sua loja — tudo pelo painel web, de qualquer computador.
+            O Delivroo Express tem um painel web exclusivo para lojas, onde você consegue solicitar entregas, acompanhar cada uma em tempo real.
           </p>
         </div>
 
@@ -33,7 +32,7 @@ export default function StoreShowcase() {
               alt="Formulário de nova entrega no painel da loja, com dados do destinatário, do pacote e da forma de pagamento"
             />
             <p className="text-center text-sm text-ink-soft mt-3">
-              Cria a entrega em poucos campos — o entregador é atribuído depois, sem você precisar escolher
+              Crie a sua entrega em poucos campos
             </p>
           </div>
           <div>
@@ -42,7 +41,7 @@ export default function StoreShowcase() {
               alt="Tela de entregas em andamento no painel da loja, com status, endereço, distância e valor de repasse de cada uma"
             />
             <p className="text-center text-sm text-ink-soft mt-3">
-              Acompanha cada entrega em andamento, do aceite até a conclusão
+              Acompanhe cada entrega em andamento, do aceite até a conclusão
             </p>
           </div>
         </div>

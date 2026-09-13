@@ -16,7 +16,7 @@ export default function App() {
         <Hero />
         <HowItWorks />
         <StoreBenefits />
-        <StoreFeatures />
+        {/*<StoreFeatures />*/}
         <StoreShowcase />
         <RiderShowcase />
         <FinalCTA />

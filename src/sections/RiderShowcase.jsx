@@ -5,10 +5,10 @@ import riderDetails from '../assets/rider-delivery-details.jpg';
 import { RIDER_APP_URL } from '../config';
 
 const points = [
-  'Entregas de várias lojas da sua cidade na mesma tela — não fica preso a um único estabelecimento esperando o próximo pedido',
-  'Você escolhe cada entrega antes de aceitar: vê a loja, o valor que recebe e a distância antes de decidir',
-  'Fica online só quando quer trabalhar — sem escala fixa, sem compromisso de horário',
-  'Acompanha o faturamento de hoje, da semana e do mês direto na tela inicial',
+  'Entregas de várias lojas da sua cidade na mesma tela — não fique preso a um único estabelecimento esperando o próximo pedido',
+  'Você escolhe cada entrega antes de aceitar: vê a loja, o valor a receber e a distância antes de decidir',
+  'Fique online só quando quiser trabalhar, sem escala fixa, sem compromisso de horário',
+ // 'Acompanha o faturamento de hoje, da semana e do mês direto na tela inicial',
 ];
 
 export default function RiderShowcase() {
@@ -21,15 +21,13 @@ export default function RiderShowcase() {
               PARA ENTREGADORES
             </span>
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-ink mt-4 text-balance">
-              Preso a uma loja só, você espera.
+              Liberdade para escolher o que e quando entregar.
               <br />
               Com o Delivroo Express, você <span className="text-orange">roda mais</span>.
             </h2>
             <p className="text-ink-soft mt-4 text-lg leading-relaxed">
-              Quando o entregador atende uma loja só, o ganho do dia depende do movimento
-              daquele único estabelecimento. No Delivroo Express, entregas de várias lojas da sua
-              cidade aparecem pra você ao mesmo tempo — mais oportunidade de aceitar a próxima
-              corrida assim que termina a anterior.
+              Com o aplicativo do entregador, você tem as entregas na palma da sua mão, tudo em tempo real.
+             
             </p>
 
             <ul className="flex flex-col gap-4 mt-8">
