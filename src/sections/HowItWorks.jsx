@@ -66,7 +66,7 @@ function StepList({ steps }) {
 
 export default function HowItWorks() {
   return (
-    <section id="como-funciona" className="py-20 sm:py-28">
+    <section id="como-funciona" className="py-5 sm:py-5">
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-ink text-balance">

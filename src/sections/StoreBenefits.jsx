@@ -19,7 +19,7 @@ const delivrooPoints = [
 
 export default function StoreBenefits() {
   return (
-    <section id="lojistas" className="py-20 sm:py-28 bg-white">
+    <section id="lojistas" className="py-5 sm:py-5 bg-white">
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
         <div className="max-w-2xl">
           <span className="inline-block bg-orange/10 text-orange-dark text-xs font-bold px-3 py-1 rounded-full">

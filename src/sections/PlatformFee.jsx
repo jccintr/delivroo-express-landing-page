@@ -10,7 +10,7 @@ const FREE_DELIVERIES_COUNT = 5;
 
 export default function PlatformFee() {
   return (
-    <section id="preco" className="py-10 sm:py-14 bg-white">
+    <section id="preco" className="py-5 sm:py-5 bg-white">
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <span className="inline-block bg-orange/10 text-orange-dark text-xs font-bold px-3 py-1 rounded-full">

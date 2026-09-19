@@ -13,7 +13,7 @@ const points = [
 
 export default function RiderShowcase() {
   return (
-    <section id="entregadores" className="py-20 sm:py-28 bg-white overflow-hidden">
+    <section id="entregadores" className="py-5 sm:py-5 bg-white overflow-hidden">
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>

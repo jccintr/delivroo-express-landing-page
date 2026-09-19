@@ -5,7 +5,7 @@ import storeEntregas from '../assets/store-entregas.jpg';
 
 export default function StoreShowcase() {
   return (
-    <section id="painel-loja" className="py-20 sm:py-28">
+    <section id="painel-loja" className="py-5 sm:py-5">
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <span className="inline-block bg-orange/10 text-orange-dark text-xs font-bold px-3 py-1 rounded-full">
