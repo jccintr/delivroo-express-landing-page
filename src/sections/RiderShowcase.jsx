@@ -23,7 +23,7 @@ export default function RiderShowcase() {
             <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-ink mt-4 text-balance">
               Liberdade para escolher o que e quando entregar.
               <br />
-              Com o Delivroo Express, você <span className="text-orange">roda mais</span>.
+              Com o Delivroo Express, você <span className="text-orange">não fica parado</span>.
             </h2>
             <p className="text-ink-soft mt-4 text-lg leading-relaxed">
               Com o aplicativo do entregador, você tem as entregas na palma da sua mão, tudo em tempo real.
