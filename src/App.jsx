@@ -2,6 +2,7 @@ import Navbar from './sections/Navbar';
 import Hero from './sections/Hero';
 import HowItWorks from './sections/HowItWorks';
 import StoreBenefits from './sections/StoreBenefits';
+import PlatformFee from './sections/PlatformFee';
 import StoreFeatures from './sections/StoreFeatures';
 import StoreShowcase from './sections/StoreShowcase';
 import RiderShowcase from './sections/RiderShowcase';
@@ -16,6 +17,7 @@ export default function App() {
         <Hero />
         <HowItWorks />
         <StoreBenefits />
+        <PlatformFee />
         {/*<StoreFeatures />*/}
         <StoreShowcase />
         <RiderShowcase />

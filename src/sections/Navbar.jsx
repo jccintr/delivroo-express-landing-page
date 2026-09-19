@@ -5,6 +5,7 @@ import { STORE_SIGNUP_URL, RIDER_APP_URL } from '../config';
 const links = [
   { href: '#como-funciona', label: 'Como funciona' },
   { href: '#lojistas', label: 'Para lojistas' },
+  { href: '#preco', label: 'Preço' },
   { href: '#entregadores', label: 'Para entregadores' },
 ];
 
